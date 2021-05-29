@@ -22,7 +22,7 @@ while ans=='y' or ans=='Y':
             conn.commit()
             more=input("Do you want to insert more data ? (y/n)")
 
-    #Displaying values from the tables
+    #Diplaying values from the tables
     if user==2:
         cur.execute("select * from std")
         data=cur.fetchall()
